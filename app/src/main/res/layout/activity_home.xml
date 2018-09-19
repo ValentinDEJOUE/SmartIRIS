@@ -7,7 +7,7 @@
     android:background="@color/backgroundcolor"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".HomeActivity">
+    tools:context=".activity.HomeActivity">
 
     <LinearLayout
         android:id="@+id/LLLigne1"
