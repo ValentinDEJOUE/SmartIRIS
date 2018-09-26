@@ -3,12 +3,23 @@
     <string name="app_name">SmartIRIS</string>
     <string name="title">Smart IRIS</string>
     <string name="version">1</string>
-    <string name="LblVisionClient">Visioner un Client</string>
-    <string name="LblDescVisionClient">Visioner un client présent dans la liste</string>
-    <string name="LblEditClient">Éditer un Client</string>
-    <string name="LblDescEditionClient">Éditer un Client présent dans la liste</string>
+    <string name="LblVisionClient">Visioner ou Editer un Client</string>
+    <string name="LblDescVisionClient">Visioner ou Editer un client présent dans la liste</string>
     <string name="LblMAJListeClient">Mise a jour Liste Client</string>
     <string name="LblDescMAJListeClient">Metre a jour la liste des clients via un fichier reçu par mail</string>
     <string name="LblExportListeClient">Exporter Liste Client</string>
     <string name="LblDescExportListeClient">Exporter la liste des client afin de l\'envoyer par mail</string>
+    <string name="TENom">Nom :</string>
+    <string name="TEAdresse">Adresse :</string>
+    <string name="TEHNom">Nom</string>
+    <string name="TEHAdresse">Adresse</string>
+    <string name="TVSociété">Société :</string>
+    <string name="TEHSociété">Société</string>
+    <string name="valider">Valider</string>
+    <string name="editer">Editer</string>
+    <string name="TVNomUtilisateur">Nom-Prénom de l\'utilisateur</string>
+    <string name="TVMail">E-mail du serveur</string>
+    <string name="TVLblNomUtilisateur">Indiquez le nom d\'utilisateur pour envoyer l\'export de la base</string>
+    <string name="TVLblEmail">Indiquez l\'adresse mail du serveur</string>
+    <string name="ETHUtilisateur">Nom Prénom</string>
 </resources>

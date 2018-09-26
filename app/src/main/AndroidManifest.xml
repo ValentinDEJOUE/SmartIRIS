@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.valentindejoue.smartiris">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -20,13 +21,10 @@
         <activity android:name=".activity.VisionClientActivity">
 
         </activity>
-        <activity android:name=".activity.EditionClientActivity">
+        <activity android:name=".activity.DetailClientActivity">
 
         </activity>
-        <activity android:name=".activity.ExportListeClientActivity">
-
-        </activity>
-        <activity android:name=".activity.MAJListeClientActivity">
+        <activity android:name=".activity.SettingActivity">
 
         </activity>
     </application>

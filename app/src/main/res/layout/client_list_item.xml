@@ -2,25 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/backgroundcolor"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <TextView
-        android:id="@+id/TVNomClient"
+        android:id="@+id/tvNom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
-        android:padding="5dp"
-        android:paddingBottom="2dp"
-        android:textSize="20dp" />
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
 
     <TextView
-        android:id="@+id/TVAdresseClient"
+        android:id="@+id/tvAdresse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
-        android:padding="5dp"
-        android:paddingTop="2dp"
-        android:textColor="@color/lightgray"
-        android:textSize="12sp" />
+        android:typeface="normal" />
 </LinearLayout>
